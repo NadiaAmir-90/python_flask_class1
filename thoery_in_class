@@ -1,0 +1,28 @@
+1.variables : explicitly varibale  declare kora lage na (string ,interger ,bool ....)
+2.code-reuseable : function ,class etc..
+3.class -> constructor : def __init__(self, number) here in the init method use dundar style =Double Underscore
+4.then python diye locally code jodi outer world e access dite jai tahole vitrual environment dorkar jeita flask provide kore 
+5. virtual environment 2 ta different project er jonno different environment provide kore 
+6.lsit comprehensive :
+ def fun ( x):
+    for x in y :
+        if x==5 :
+            return y[x]
+     lsit comprehensive :
+      return [ y[x] for x in y  if x==5]
+7. dictionaries  ==like map (key values pair )      
+8 .if we want to declare the value as globally in the python then we use alll capital letter  ex: const PI=3.1415
+
+
+Notes :
+1.Python's self is closely related to Java's this, although Python uses it more explicitly.
+2.Yes. If you're talking about Python function parameters/arguments, there are commonly four kinds of arguments you'll encounter:
+
+Positional arguments
+Keyword arguments
+Default arguments
+Variable-length arguments (*args and **kwargs)
+3. why we use the venv folder : we need not upload int he github the venv folder. so it should stay in the gitignore file 
+The main purpose is to isolate the Python packages for one project from other projects.
+
+4.Use a function when you need to perform an operation. Use a class when you need to represent an object that has both data and related behavior.
